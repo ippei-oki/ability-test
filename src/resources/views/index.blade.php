@@ -17,7 +17,7 @@
             <span class="form__label--required">※</span>
           </div>
           <div class="form__group-content">
-            <div class="form__input--text">
+            <div class="form__input--name">
               <input type="text" name="name" placeholder="例: 山田" />
               <input type="text" name="name" placeholder="例: 太郎" />
             </div>
@@ -102,9 +102,10 @@
             <span class="form__label--item">お問い合わせの種類</span>
           </div>
           <div class="form__group-content">
-            <div class="form__input--textarea">
+            <div class="form__input--select">
               <select name="select">
                 <option>選択してください</option>
+              </select>
             </div>
           </div>
         </div>
